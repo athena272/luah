@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="footer-2">
           <h2>Contato</h2>
           <div>
-            <a href="https://www.instagram.com/vivace.loja/" target={"_blank"}>
+            <a href="https://www.instagram.com/luahtshirt" target={"_blank"}>
               <BsInstagram size={30} />
             </a>
             <a href="https://wa.me/5579998487269" target={"_blank"}>
