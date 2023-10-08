@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+  overflow-x: inherit;
+}
+
+/* === CARD ADD CART === */
+
+.alertAdd {
+  display: flex;
+  right: 1rem;
+  bottom: 1rem;
+  position: fixed;
+}
+
+/* FILTER */
+
+.filter {
+  width: 100%;
+  background-color: #202020;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filterLink {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.filterLink:hover {
+  color: #ff33a7;
+}
+
+.hamburguer {
+  display: none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 710px) {
+  .filter {
+    display: none;
+    background: red;
+  }
+  .alertAdd {
+    display: flex;
+    position: fixed;
+    margin: 0 auto;
+  }
+  .hamburguer {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background: #202020;
+    width: 100vw;
+    border: none;
+  }
+
+  .filterTitle {
+    color: #ff33a7;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 0 0 0;
+  }
+  .filterClose {
+    background-color: #fff;
+  }
+  .filter1 {
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    transition: 1s;
+    text-decoration: none;
+  }
+  .filterEsc {
+    display: flex;
+    color: #ff33a7;
+    padding: 1rem 0.5rem;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #ff33a7;
+  }
+  .PopoverArrow {
+    fill: white;
+  }
+}
