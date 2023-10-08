@@ -48,13 +48,13 @@ const Slide = () => {
       icon: <MdOutlinePayments size={50} className="icon" />,
     },
     {
-      title: "Entrega em Boituva/SP",
+      title: "Entrega em Salgado/SE e regiões",
       sub: "Levamos a sua encomenda até você.",
       icon: <TbTruckDelivery size={50} className="icon" />,
     },
     {
       title: "Frete",
-      sub: "O valor varia conforme o bairro (R$5,00 - R$10,00).",
+      sub: "O valor é à combinar.",
       icon: <FaLaptopHouse size={50} className="icon" />,
     },
   ];
