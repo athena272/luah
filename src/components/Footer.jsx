@@ -8,7 +8,7 @@ import logo from "/media/logo1.png";
 const Footer = () => {
   return (
     <div className="footer">
-      <img className="footer-logo" src={logo} alt="Logo Vivace" />
+      <img className="footer-logo" src={logo} alt="Logo Vivace" width={144} height={144} loading="lazy" />
       <hr className="footer-hr" />
       <div className="footer-info">
         <div className="footer-1">
@@ -31,9 +31,9 @@ const Footer = () => {
             <a href="https://wa.me/5579998487269" target={"_blank"}>
               <BsWhatsapp size={30} />
             </a>
-            <a href="mailto:vivace.contato01@gmail.com" target={"_blank"}>
+            {/* <a href="mailto:vivace.contato01@gmail.com" target={"_blank"}>
               <MdOutlineMailOutline size={30} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

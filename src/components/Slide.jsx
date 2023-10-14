@@ -37,7 +37,7 @@ const Slide = () => {
   };
 
   const imgSlides = [
-    { name: "novidades", img: "/media/slide/Slide3.png" },
+    // { name: "novidades", img: "/media/slide/Slide3.png" },
     { name: "queridinhos", img: "/media/slide/Slide2.png" },
   ];
 
@@ -67,7 +67,7 @@ const Slide = () => {
           return (
             <div className="div-slide" key={name}>
               <Link to={name}>
-                <img src={img} alt={name} />
+                <img src={img} alt={name} width={1300} height={400}/>
               </Link>
             </div>
           );

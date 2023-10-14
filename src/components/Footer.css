@@ -4,9 +4,8 @@
 }
 
 .footer-logo {
-  width: 12rem;
   display: flex;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .footer-hr {
@@ -50,7 +49,7 @@
 }
 
 .footer-2 a:hover {
-  color: #ff99c8;
+  color: #AD004D;
 }
 
 .footer-info h2 {

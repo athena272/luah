@@ -18,29 +18,31 @@ import "./App.css";
 const products = [
   {
     id: 19,
-    name: "Ciganinha Marsala",
-    price: 59.9,
+    name: "T-shirt Seja Forte",
+    price: 40.0,
     quant: 1,
     size: ["G"],
-    categories: ["bodyCropped", "novidades"],
+    categories: ["tShirt", "novidades"],
     image: [
       "media/roupas/cpCig1.JPG",
-      "media/roupas/cpCig2.JPG",
-      "media/roupas/cpCig3.JPG",
+      "media/roupas/cpCig2.jpeg",
     ],
-    description: "🧣 Cropped Ciganinha Marsala (Com bojo).",
+    description: "🧣 T-Shirt Seja Forte.",
     descSize: "📐 Tamanho G disponível.",
   },
   {
     id: 17,
-    name: "Cropped Azul Tricot",
-    price: 59.9,
+    name: "T-Shirt Flores",
+    price: 40.0,
     quant: 1,
-    size: ["Único"],
-    categories: ["bodyCropped", "novidades"],
-    image: ["media/roupas/cpAzul.JPG"],
-    description: "🧣 Cropped azul confeccionado em Tricot.",
-    descSize: "📐 Tamanho único, veste de M até GG.",
+    size: ["M", "GG"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/cpAzul.JPEG",
+      "media/roupas/cpAzul2.JPEG",
+    ],
+    description: "🧣 T-Shirt Flores.",
+    descSize: "📐 Tamanhos M e GG disponíveis",
   },
   {
     id: 15,
@@ -74,7 +76,7 @@ const products = [
     price: 39.9,
     quant: 1,
     size: ["M"],
-    categories: ["bodyCropped"],
+    categories: ["tShirt"],
     image: ["media/roupas/bdChiclete.jpg"],
     description:
       "🧣 Canelado, duplo tecido no busto, 92% poliester, 8% elastano.",
@@ -86,7 +88,7 @@ const products = [
     price: 22.9,
     quant: 1,
     size: ["P"],
-    categories: ["bodyCropped"],
+    categories: ["tShirt"],
     image: ["media/roupas/cavadoPreto1.jpg", "media/roupas/cavadoPreto2.jpg"],
     description:
       "🧣 Confeccionado em canelado duplo, sem bojo. Costas nuas com cordinha de amarração, cavado.",
@@ -98,7 +100,7 @@ const products = [
     price: 43.9,
     quant: 2,
     size: ["M"],
-    categories: ["bodyCropped"],
+    categories: ["tShirt"],
     image: ["media/roupas/cpBranco.jpg"],
     description: "🧣 Confeccionado em suplex, sem bojo",
     descSize:
@@ -110,7 +112,7 @@ const products = [
     price: 43.9,
     quant: 1,
     size: ["P"],
-    categories: ["bodyCropped"],
+    categories: ["tShirt"],
     image: ["media/roupas/cpPreto.jpg"],
     description: "🧣 Confeccionado em suplex, sem bojo",
     descSize: "📐 Busto: 69cm, Comprimento: 35cm",
@@ -121,7 +123,7 @@ const products = [
     price: 39.9,
     quant: 2,
     size: ["M", "G"],
-    categories: ["bodyCropped"],
+    categories: ["tShirt"],
     image: ["media/roupas/longoPreto.jpg"],
     description: "🧣 Confeccionado em suplex, sem bojo.",
     descSize:
@@ -146,7 +148,7 @@ const products = [
     price: 59.9,
     quant: 0,
     size: ["Único"],
-    categories: ["bodyCropped", "novidades"],
+    categories: ["tShirt", "novidades"],
     image: ["media/roupas/cpRosa2.jpg", "media/roupas/cpRosa1.jpg"],
     description: "🧣 Cropped pink confeccionado em Tricot.",
     descSize: "📐 Tamanho único, veste de P até G.",
@@ -157,7 +159,7 @@ const products = [
     price: 59.9,
     quant: 0,
     size: ["Único"],
-    categories: ["bodyCropped", "novidades"],
+    categories: ["tShirt", "novidades"],
     image: ["media/roupas/cpVerde.jpg"],
     description: "🧣 Cropped verde confeccionado em Tricot.",
     descSize: "📐 Tamanho único, veste de P até G.",
@@ -168,7 +170,7 @@ const products = [
     price: 59.9,
     quant: 0,
     size: ["M"],
-    categories: ["bodyCropped", "novidades"],
+    categories: ["tShirt", "novidades"],
     image: [
       "media/roupas/cpCigV1.JPG",
       "media/roupas/cpCigV2.JPG",
@@ -212,7 +214,7 @@ const products = [
     price: 39.9,
     quant: 0,
     size: ["M"],
-    categories: ["bodyCropped", "queridinhos"],
+    categories: ["tShirt", "queridinhos"],
     image: ["media/roupas/bdRosado.jpg"],
     description:
       "🧣 Canelado, duplo tecido no busto, 92% poliester, 8% elastano.",
@@ -224,7 +226,7 @@ const products = [
     price: 39.9,
     quant: 0,
     size: ["P"],
-    categories: ["bodyCropped", "queridinhos"],
+    categories: ["tShirt", "queridinhos"],
     image: ["media/roupas/bdVerde.jpg"],
     description:
       "🧣 Canelado, duplo tecido no busto, 92% poliester, 8% elastano.",
@@ -236,7 +238,7 @@ const products = [
     price: 39.9,
     quant: 0,
     size: ["G"],
-    categories: ["bodyCropped", "queridinhos"],
+    categories: ["tShirt", "queridinhos"],
     image: ["media/roupas/bdPreto.jpg"],
     description:
       "🧣 Canelado, duplo tecido no busto, 92% poliester, 8% elastano.",
@@ -248,7 +250,7 @@ const products = [
     price: 22.9,
     quant: 0,
     size: ["P"],
-    categories: ["bodyCropped"],
+    categories: ["tShirt"],
     image: ["media/roupas/cavadoVermelho.jpg"],
     description:
       "🧣 Confeccionado em canelado duplo, sem bojo. Costas nuas com cordinha de amarração, cavado.",
@@ -260,7 +262,7 @@ const products = [
     price: 26.9,
     quant: 0,
     size: ["M"],
-    categories: ["bodyCropped", "queridinhos"],
+    categories: ["tShirt", "queridinhos"],
     image: ["media/roupas/cpReg.jpg"],
     description: "🧣 Confeccionado em canelado macio, básico.",
     descSize:
@@ -316,8 +318,8 @@ const queridinhos = products.filter((product) =>
 );
 
 /* Body / Cropped */
-const bodyCropped = products.filter((product) =>
-  product.categories.includes("bodyCropped")
+const tShirt = products.filter((product) =>
+  product.categories.includes("tShirt")
 );
 
 /* Calça / Saia */
@@ -434,7 +436,7 @@ function App() {
             Todos os produtos
           </Link>
           <Link className="filterLink" to="/body-cropped">
-            Body / Cropped
+            T-Shirt
           </Link>
           <Link className="filterLink" to="/calças-saias">
             Calças / Saias
@@ -457,7 +459,7 @@ function App() {
                     ● Todos os produtos
                   </Link>
                   <Link to="/body-cropped" className="filterEsc">
-                    ● Body / Cropped
+                    ● T-Shirt
                   </Link>
                   <Link to="/calças-saias" className="filterEsc">
                     ● Calças / Saias
@@ -503,11 +505,11 @@ function App() {
             path="/body-cropped"
             element={
               <Product
-                products={bodyCropped}
+                products={tShirt}
                 addItem={addItem}
                 showAlert={showAlert}
                 handleClickOpen={handleClickOpen}
-                title="Body / Cropped"
+                title="T-Shirt"
               />
             }
           ></Route>

@@ -25,7 +25,7 @@ const NavBar = ({
   return (
     <header className="NavBar">
       <a href="/">
-        <img src={logo} alt="Logo Luah" className="logo" />
+        <img src={logo} alt="Logo Luah" className="logo" width={144} height={144} />
       </a>
       <ul className="nav-ul">
         <li className="nav-li navSearch">
