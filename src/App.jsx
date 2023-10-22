@@ -46,8 +46,8 @@ const products = [
   },
   {
     id: 15,
-    name: "Vestido Florido",
-    price: 119.9,
+    name: "T-shirt Flores Amarelas",
+    price: 40.0,
     quant: 1,
     size: ["Único"],
     categories: ["vestido", "novidades"],
