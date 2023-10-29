@@ -24,8 +24,8 @@ const products = [
     size: ["G"],
     categories: ["tShirt", "novidades"],
     image: [
-      "media/roupas/cpCig1.JPG",
-      "media/roupas/cpCig2.jpeg",
+      "media/roupas/sejaForte.jpg",
+      "media/roupas/sejaForte2.jpeg",
     ],
     description: "🧣 T-Shirt Seja Forte.",
     descSize: "📐 Tamanho G disponível.",
