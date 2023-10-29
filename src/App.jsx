@@ -75,15 +75,18 @@ const products = [
   },
   {
     id: 1,
-    name: "Body Rosa",
-    price: 39.9,
+    name: "T-shirt Confio, Aceito e Agradeço!",
+    price: 40.0,
     quant: 1,
-    size: ["M"],
+    size: ["M", 'GG'],
     categories: ["tShirt"],
-    image: ["media/roupas/bdChiclete.jpg"],
+    image: [
+      "media/roupas/confioAgradeco.jfif",
+      "media/roupas/confioAgradeco2.jfif",
+    ],
     description:
-      "🧣 Canelado, duplo tecido no busto, 92% poliester, 8% elastano.",
-    descSize: "📐 Cintura: 67cm, Busto: 71cm, Comprimento: 71cm",
+      "🧣 T-shirt Confio, Aceito e Agradeço!",
+    descSize: "📐 Tamanhos M e GG disponíveis",
   },
   {
     id: 5,
