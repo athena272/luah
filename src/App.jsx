@@ -38,8 +38,8 @@ const products = [
     size: ["M", "GG"],
     categories: ["tShirt", "novidades"],
     image: [
-      "media/roupas/cpAzul.JPEG",
-      "media/roupas/cpAzul2.JPEG",
+      "media/roupas/cpAzul.jpeg",
+      "media/roupas/cpAzul2.jpeg",
     ],
     description: "🧣 T-Shirt Flores.",
     descSize: "📐 Tamanhos M e GG disponíveis",
