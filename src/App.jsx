@@ -435,7 +435,7 @@ function App() {
           <Link className="filterLink" to="/">
             Todos os produtos
           </Link>
-          <Link className="filterLink" to="/body-cropped">
+          {/* <Link className="filterLink" to="/body-cropped">
             T-Shirt
           </Link>
           <Link className="filterLink" to="/calças-saias">
@@ -443,7 +443,7 @@ function App() {
           </Link>
           <Link className="filterLink" to="/vestidos">
             Vestidos
-          </Link>
+          </Link> */}
         </div>
 
         <Popover.Root>
