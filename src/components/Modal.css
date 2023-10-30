@@ -1,6 +1,11 @@
 .modalTopo {
   width: 100%;
+  justify-content: space-around;
   background: #AD004D;
+}
+
+.css-hyum1k-MuiToolbar-root {
+  padding-left: 0 !important;
 }
 
 .modalTitle {
