@@ -66,9 +66,9 @@ const Slide = () => {
           const { name, img } = item;
           return (
             <div className="div-slide" key={name}>
-              <Link to={name}>
+              {/* <Link to={name}> */}
                 <img src={img} alt={name} width={1300} height={400}/>
-              </Link>
+              {/* </Link> */}
             </div>
           );
         })}
