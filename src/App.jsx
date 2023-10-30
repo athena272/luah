@@ -96,7 +96,7 @@ const products = [
     size: ["M"],
     categories: ["tShirt"],
     image: [
-      "media/roupas/meninaOlhos.jfif", 
+      "media/roupas/meninaOlhos.jfif",
       "media/roupas/meninaOlhos2.jpeg",
       "media/roupas/meninaOlhos3.jpeg",
     ],
@@ -135,28 +135,32 @@ const products = [
   },
   {
     id: 10,
-    name: "Cropped Longo Preto",
-    price: 39.9,
+    name: "T-shirt crie motivos para sorrir!",
+    price: 40.0,
     quant: 50,
-    size: ["M", "G"],
+    size: ["M"],
     categories: ["tShirt"],
-    image: ["media/roupas/longoPreto.jpg"],
-    description: "🧣 Confeccionado em suplex, sem bojo.",
+    image: [
+      "media/roupas/motivosSorrir.jpeg"
+    ],
+    description: "🧣 T-shirt crie motivos para sorrir!",
     descSize:
-      "📐 Preto M = Busto: 75cm, Comprimento: 39cm, Gola: 30cm, Comp. manga: 58cm; Preto G =  Busto: 78cm, Comprimento: 40cm, Gola: 33cm, Comp. manga: 59cm",
+      "📐 Tamanho M disponível",
   },
   {
     id: 11,
-    name: "Calça Lisa Preta",
-    price: 79.9,
+    name: "T-Shirt voe alto!",
+    price: 40.0,
     quant: 50,
-    size: ["M"],
-    categories: ["calcaSaia", "queridinhos"],
-    image: ["media/roupas/calcaPreta.jpg"],
+    size: ["G", "GG"],
+    categories: ["tShirt"],
+    image: [
+      "media/roupas/voeAlto.jpeg"
+    ],
     description:
-      "🧣 Tecido crepe, 90% poliéster, 10% elastano. Possui elástico atrás.",
+      "🧣 T-Shirt voe alto!",
     descSize:
-      "📐 Cintura: 72cm, Quadril: 92cm, Cavalo: 34cm, Comprimento: 110cm",
+      "📐 Tamanhos G e GG disponíveis",
   },
   {
     id: 18,
