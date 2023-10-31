@@ -443,6 +443,20 @@ const products = [
     description: "🧣 Blusinha lisa lilás",
     descSize: "📐 Tamanho G disponível.",
   },
+  {
+    id: 32,
+    name: "Blusinha flores amarela",
+    price: 55.0,
+    quant: 50,
+    size: ["G"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/floresAmaralela.jpeg",
+      "media/roupas/floresAmaralela2.jpeg",
+    ],
+    description: "🧣 Blusinha flores amarela",
+    descSize: "📐 Tamanho G disponível.",
+  },
 ];
 
 /* Novidades */
