@@ -27,12 +27,12 @@ const products = [
       "media/roupas/sejaForte.jpg",
       "media/roupas/sejaForte2.jpeg",
     ],
-    description: "🧣 T-Shirt Seja Forte.",
+    description: "🧣 T-shirt Seja Forte.",
     descSize: "📐 Tamanho G disponível.",
   },
   {
     id: 17,
-    name: "T-Shirt Flores",
+    name: "T-shirt Flores",
     price: 40.0,
     quant: 50,
     size: ["M", "GG"],
@@ -41,7 +41,7 @@ const products = [
       "media/roupas/Flores.jpeg",
       "media/roupas/Flores2.jpeg",
     ],
-    description: "🧣 T-Shirt Flores.",
+    description: "🧣 T-shirt Flores.",
     descSize: "📐 Tamanhos M e GG disponíveis",
   },
   {
@@ -106,7 +106,7 @@ const products = [
   },
   {
     id: 8,
-    name: "T-Shirt se permita sonhar!",
+    name: "T-shirt se permita sonhar!",
     price: 40.0,
     quant: 50,
     size: ["P"],
@@ -115,7 +115,7 @@ const products = [
       "media/roupas/permitaSonhar.jpeg",
       "media/roupas/permitaSonhar2.jpeg",
     ],
-    description: "🧣 T-Shirt se permita sonhar!",
+    description: "🧣 T-shirt se permita sonhar!",
     descSize:
       "📐 Tamanho P disponível",
   },
@@ -149,7 +149,7 @@ const products = [
   },
   {
     id: 11,
-    name: "T-Shirt voe alto!",
+    name: "T-shirt voe alto!",
     price: 40.0,
     quant: 50,
     size: ["G", "GG"],
@@ -158,13 +158,13 @@ const products = [
       "media/roupas/voeAlto.jpeg"
     ],
     description:
-      "🧣 T-Shirt voe alto!",
+      "🧣 T-shirt voe alto!",
     descSize:
       "📐 Tamanhos G e GG disponíveis",
   },
   {
     id: 18,
-    name: "T-Shirt não tenha medo, tenha fé!",
+    name: "T-shirt não tenha medo, tenha fé!",
     price: 40.0,
     quant: 50,
     size: ["GG"],
@@ -172,12 +172,12 @@ const products = [
     image: [
       "media/roupas/medoFe.jpeg", 
     ],
-    description: "🧣 T-Shirt não tenha medo, tenha fé!",
+    description: "🧣 T-shirt não tenha medo, tenha fé!",
     descSize: "📐 Tamanho GG disponível",
   },
   {
     id: 23,
-    name: "Cropped Verde Tricot",
+    name: "T-shirt sinta a Emoção!",
     price: 59.9,
     quant: 0,
     size: ["Único"],
@@ -458,7 +458,7 @@ function App() {
             Todos os produtos
           </Link>
           {/* <Link className="filterLink" to="/body-cropped">
-            T-Shirt
+            T-shirt
           </Link>
           <Link className="filterLink" to="/calças-saias">
             Calças / Saias
@@ -481,7 +481,7 @@ function App() {
                     ● Todos os produtos
                   </Link>
                   {/* <Link to="/body-cropped" className="filterEsc">
-                    ● T-Shirt
+                    ● T-shirt
                   </Link>
                   <Link to="/calças-saias" className="filterEsc">
                     ● Calças / Saias
@@ -531,7 +531,7 @@ function App() {
                 addItem={addItem}
                 showAlert={showAlert}
                 handleClickOpen={handleClickOpen}
-                title="T-Shirt"
+                title="T-shirt"
               />
             }
           ></Route>
