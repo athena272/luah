@@ -35,14 +35,14 @@ const products = [
     name: "T-shirt Flores",
     price: 40.0,
     quant: 50,
-    size: ["M", "GG"],
+    size: ["GG"],
     categories: ["tShirt", "novidades"],
     image: [
       "media/roupas/Flores.jpeg",
       "media/roupas/Flores2.jpeg",
     ],
     description: "🧣 T-shirt Flores.",
-    descSize: "📐 Tamanhos M e GG disponíveis",
+    descSize: "📐 Tamanho GG disponível",
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ const products = [
     name: "T-shirt Confio, Aceito e Agradeço!",
     price: 40.0,
     quant: 50,
-    size: ["M", 'GG'],
+    size: ['GG'],
     categories: ["tShirt"],
     image: [
       "media/roupas/confioAgradeco.jfif",
@@ -86,7 +86,7 @@ const products = [
     ],
     description:
       "🧣 T-shirt Confio, Aceito e Agradeço!",
-    descSize: "📐 Tamanhos M e GG disponíveis",
+    descSize: "📐 Tamanho GG disponível",
   },
   {
     id: 6,
