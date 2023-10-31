@@ -203,7 +203,7 @@ const products = [
     id: 14,
     name: "Regata bem me quero!",
     price: 38,
-    quant: 0,
+    quant: 50,
     size: ["M"],
     categories: ["vestido", "novidades"],
     image: [
@@ -216,7 +216,7 @@ const products = [
     id: 15,
     name: "Regata seja forte!",
     price: 38.0,
-    quant: 0,
+    quant: 50,
     size: ["M"],
     categories: ["calcaSaia", "novidades"],
     image: [
