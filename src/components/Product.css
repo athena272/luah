@@ -89,13 +89,15 @@
 }
 
 .addEsgotado {
-  background: #ffc6e1;
+  background: #AD004D;
   cursor: auto;
 }
 
 .addEsgotado:hover {
-  background: #ffd2e7;
-  color: #fff;
+  filter: saturate(1.3);
+  background: none;
+  color: #AD004D;
+  border: 2px solid #AD004D;
 }
 
 .iconAdd {
