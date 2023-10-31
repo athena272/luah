@@ -277,15 +277,16 @@ const products = [
   },
   {
     id: 20,
-    name: "Cropped Regata Preto",
-    price: 26.9,
-    quant: 0,
+    name: "Blusinha florida roxa",
+    price: 55.0,
+    quant: 50,
     size: ["M"],
-    categories: ["tShirt", "queridinhos"],
-    image: ["media/roupas/cpReg.jpg"],
-    description: "🧣 Confeccionado em canelado macio, básico.",
-    descSize:
-      "📐 Preto P = Busto: 66cm, Comprimento: 38cm; Preto M =  Busto: 72cm, Comprimento: 41cm",
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/regataBranca.jpeg",
+    ],
+    description: "🧣 T-shirt regata branca",
+    descSize: "📐 Tamanho M disponível.",
   },
   {
     id: 12,
