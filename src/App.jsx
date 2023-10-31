@@ -345,6 +345,34 @@ const products = [
     description: "🧣 Blusinha flores vermelha",
     descSize: "📐 Tamanho GG disponível.",
   },
+  {
+    id: 25,
+    name: "Blusinha corações bege",
+    price: 55.0,
+    quant: 50,
+    size: ["G"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/coracoesBege.jpeg",
+      "media/roupas/coracoesBege2.jpeg",
+    ],
+    description: "🧣 Blusinha corações bege",
+    descSize: "📐 Tamanho G disponível.",
+  },
+  {
+    id: 26,
+    name: "Blusinha corações marrom",
+    price: 55.0,
+    quant: 50,
+    size: ["G"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/coracoesMarrom.jpeg",
+      "media/roupas/coracoesMarrom2.jpeg",
+    ],
+    description: "🧣 Blusinha corações marrom",
+    descSize: "📐 Tamanho G disponível.",
+  },
 ];
 
 /* Novidades */
