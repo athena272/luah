@@ -283,8 +283,8 @@ const products = [
     size: ["M"],
     categories: ["tShirt", "novidades"],
     image: [
-      "media/roupas/blusaRoxa2.jpeg",
       "media/roupas/blusaRoxa.jpeg",
+      "media/roupas/blusaRoxa2.jpeg",
     ],
     description: "🧣 Blusinha florida roxa",
     descSize: "📐 Tamanho M disponível.",
