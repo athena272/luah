@@ -387,6 +387,62 @@ const products = [
     description: "🧣 Blusinha borboletas escura",
     descSize: "📐 Tamanho GG disponível.",
   },
+  {
+    id: 28,
+    name: "Blusinha poderosa",
+    price: 40.0,
+    quant: 50,
+    size: ["M"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/blusinhaPoderosa.jpeg",
+      "media/roupas/blusinhaPoderosa2.jpeg",
+    ],
+    description: "🧣 Blusinha poderosa",
+    descSize: "📐 Tamanho M disponível.",
+  },
+  {
+    id: 29,
+    name: "Blusinha inspire amor!",
+    price: 40.0,
+    quant: 50,
+    size: ["P"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/inspireAmor2.jpeg",
+      "media/roupas/inspireAmor.jpeg",
+    ],
+    description: "🧣 Blusinha inspire amor!",
+    descSize: "📐 Tamanho P disponível.",
+  },
+  {
+    id: 30,
+    name: "Blusinha flores laranja",
+    price: 55.0,
+    quant: 50,
+    size: ["G"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/floresLaranja2.jpeg",
+      "media/roupas/floresLaranja.jpeg",
+    ],
+    description: "🧣 Blusinha flores laranja",
+    descSize: "📐 Tamanho G disponível.",
+  },
+  {
+    id: 31,
+    name: "Blusinha lisa lilás",
+    price: 45.0,
+    quant: 50,
+    size: ["G"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/lisaLisas.jpeg",
+      "media/roupas/lisaLisas2.jpeg",
+    ],
+    description: "🧣 Blusinha lisa lilás",
+    descSize: "📐 Tamanho G disponível.",
+  },
 ];
 
 /* Novidades */
