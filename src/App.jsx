@@ -182,7 +182,7 @@ const products = [
     quant: 0,
     size: ["Único"],
     categories: ["tShirt", "novidades"],
-    image: ["media/roupas/cpVerde.jpg"],
+    image: ["media/roupas/sintaEmocao.jpeg"],
     description: "🧣 Cropped verde confeccionado em Tricot.",
     descSize: "📐 Tamanho único, veste de P até G.",
   },
