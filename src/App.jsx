@@ -373,6 +373,20 @@ const products = [
     description: "🧣 Blusinha corações marrom",
     descSize: "📐 Tamanho G disponível.",
   },
+  {
+    id: 27,
+    name: "Blusinha borboletas escura",
+    price: 55.0,
+    quant: 50,
+    size: ["GG"],
+    categories: ["tShirt", "novidades"],
+    image: [
+      "media/roupas/borboletasEscura.jpeg",
+      "media/roupas/borboletasEscura2.jpeg",
+    ],
+    description: "🧣 Blusinha borboletas escura",
+    descSize: "📐 Tamanho GG disponível.",
+  },
 ];
 
 /* Novidades */
