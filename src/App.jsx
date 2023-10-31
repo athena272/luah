@@ -17,7 +17,7 @@ import "./App.css";
 /* Todos os produtos */
 const products = [
   {
-    id: 19,
+    id: 1,
     name: "T-shirt Seja Forte",
     price: 40.0,
     quant: 50,
@@ -31,7 +31,7 @@ const products = [
     descSize: "📐 Tamanho G disponível.",
   },
   {
-    id: 17,
+    id: 2,
     name: "T-shirt Flores",
     price: 40.0,
     quant: 50,
@@ -45,7 +45,7 @@ const products = [
     descSize: "📐 Tamanhos M e GG disponíveis",
   },
   {
-    id: 15,
+    id: 3,
     name: "T-shirt Flores Amarelas",
     price: 40.0,
     quant: 50,
@@ -59,7 +59,7 @@ const products = [
     descSize: "📐 Tamanho G disponível",
   },
   {
-    id: 22,
+    id: 4,
     name: "T-shirt corações",
     price: 40.0,
     quant: 50,
@@ -74,7 +74,7 @@ const products = [
     descSize: "📐 Tamanho P disponível",
   },
   {
-    id: 1,
+    id: 5,
     name: "T-shirt Confio, Aceito e Agradeço!",
     price: 40.0,
     quant: 50,
@@ -89,7 +89,7 @@ const products = [
     descSize: "📐 Tamanhos M e GG disponíveis",
   },
   {
-    id: 5,
+    id: 6,
     name: "T-shirt Protege-me como a menina dos teus olhos",
     price: 40.0,
     quant: 50,
@@ -105,7 +105,7 @@ const products = [
     descSize: "📐 Tamanho M disponível",
   },
   {
-    id: 8,
+    id: 7,
     name: "T-shirt se permita sonhar!",
     price: 40.0,
     quant: 50,
@@ -120,7 +120,7 @@ const products = [
       "📐 Tamanho P disponível",
   },
   {
-    id: 9,
+    id: 8,
     name: "T-shirt vida leve!",
     price: 40.0,
     quant: 50,
@@ -134,7 +134,7 @@ const products = [
     descSize: "📐 Tamanho M disponível",
   },
   {
-    id: 10,
+    id: 9,
     name: "T-shirt crie motivos para sorrir!",
     price: 40.0,
     quant: 50,
@@ -148,7 +148,7 @@ const products = [
       "📐 Tamanho M disponível",
   },
   {
-    id: 11,
+    id: 10,
     name: "T-shirt voe alto!",
     price: 40.0,
     quant: 50,
@@ -163,7 +163,7 @@ const products = [
       "📐 Tamanhos G e GG disponíveis",
   },
   {
-    id: 18,
+    id: 11,
     name: "T-shirt não tenha medo, tenha fé!",
     price: 40.0,
     quant: 50,
@@ -176,7 +176,7 @@ const products = [
     descSize: "📐 Tamanho GG disponível",
   },
   {
-    id: 23,
+    id: 12,
     name: "T-shirt sinta a emoção!",
     price: 40.0,
     quant: 50,
@@ -187,7 +187,7 @@ const products = [
     descSize: "📐 Tamanho M disponível",
   },
   {
-    id: 20,
+    id: 13,
     name: "T-shirt margaridas",
     price: 40.0,
     quant: 50,
@@ -200,7 +200,7 @@ const products = [
     descSize: "📐 Tamanho M disponível.",
   },
   {
-    id: 16,
+    id: 14,
     name: "Regata bem me quero!",
     price: 38,
     quant: 0,
@@ -213,7 +213,7 @@ const products = [
     descSize: "📐 Tamanho M disponível.",
   },
   {
-    id: 21,
+    id: 15,
     name: "Regata seja forte!",
     price: 38.0,
     quant: 0,
@@ -226,7 +226,7 @@ const products = [
     descSize: "📐 Tamanho M disponível",
   },
   {
-    id: 2,
+    id: 16,
     name: "Regata rosa",
     price: 38.0,
     quant: 50,
@@ -238,7 +238,7 @@ const products = [
     descSize: "📐 Tamanho M disponível",
   },
   {
-    id: 3,
+    id: 17,
     name: "Regata preta",
     price: 38.0,
     quant: 50,
@@ -250,7 +250,7 @@ const products = [
     descSize: "📐 Tamanho M disponível",
   },
   {
-    id: 4,
+    id: 18,
     name: "T-shirt para cada coisa, o seu tempo!",
     price: 40.0,
     quant: 50,
@@ -263,7 +263,7 @@ const products = [
     descSize: "📐 Tamanho M disponível.",
   },
   {
-    id: 6,
+    id: 19,
     name: "T-shirt regata branca",
     price: 40.0,
     quant: 50,
@@ -276,7 +276,7 @@ const products = [
     descSize: "📐 Tamanho GG disponível.",
   },
   {
-    id: 7,
+    id: 20,
     name: "Cropped Regata Preto",
     price: 26.9,
     quant: 0,
