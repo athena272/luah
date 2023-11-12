@@ -72,7 +72,7 @@ const NavBar = ({
                             <div className="infoCart">
                               <h4>{name}</h4>
                               <p className="infoPrice">
-                                {price.toLocaleString("pt-br", {
+                                {(price - (price * 0.25)).toLocaleString("pt-br", {
                                   style: "currency",
                                   currency: "BRL",
                                 })}
