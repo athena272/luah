@@ -41,7 +41,7 @@ const Footer = () => {
         <p>
           Desenvolvido por{" "}
           <a
-            href="https://www.linkedin.com/in/danielalmeidadetoledo/"
+            href="https://www.linkedin.com/in/guigorosario/"
             target={"_blank"}
           >
             Guilherme Rosário
