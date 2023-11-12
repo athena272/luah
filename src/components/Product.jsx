@@ -37,7 +37,7 @@ const Product = ({ products, addItem, showAlert, handleClickOpen, title }) => {
                 })}
               </h3>
               <h3>
-                {(price - (price * 0.25)).toLocaleString("pt-br", {
+                {(price * 0.75).toLocaleString("pt-br", {
                   style: "currency",
                   currency: "BRL",
                 })}
