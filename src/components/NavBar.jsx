@@ -19,7 +19,7 @@ const NavBar = ({
 }) => {
   const [search, setSearch] = useState("");
   const totalPrice = cartShop.reduce((acc, item) => {
-    return acc + item.price;
+    return acc + (item.price - (item.price * 0.25))
   }, 0);
 
   return (
