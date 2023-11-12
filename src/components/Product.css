@@ -44,6 +44,11 @@
   justify-content: space-around;
 }
 
+.infos h3:first-child {
+  text-decoration: line-through;
+  opacity: 0.85;
+}
+
 .numSize {
   text-decoration: none;
   color: #000;
