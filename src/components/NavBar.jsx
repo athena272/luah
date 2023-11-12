@@ -109,7 +109,7 @@ const NavBar = ({
                         href={`https://api.whatsapp.com/send?phone=5579998487269&text=%E2%9C%A8%20*LUAH*%20%E2%9C%A8%0A%0AOii,%20%0AGostei%20desses%20itens%20e%20tenho%20interesse%20em%20comprar:${cartShop.map(
                           (item) => {
                             const { name, price, size, count } = item;
-                            return `%0A%0A*Item:*%20${name}%0A*Tamanho:*%20${size}%0A*Quantidade:*%20${count}%0A*Valor:*%20${price.toLocaleString(
+                            return `%0A%0A*Item:*%20${name}%0A*Tamanho:*%20${size}%0A*Quantidade:*%20${count}%0A*Valor:*%20${(price - (price * 0.25)).toLocaleString(
                               "pt-br",
                               {
                                 style: "currency",
